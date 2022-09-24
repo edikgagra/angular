@@ -9,7 +9,7 @@ import {DataHandlerService} from 'src/app/service/data-handler.service';
 })
 export class CategoriesComponent implements OnInit {
 
-  categories: Category[] | undefined;
+  categories!: Category[];
 
   constructor(private dataHandler: DataHandlerService) {
 
